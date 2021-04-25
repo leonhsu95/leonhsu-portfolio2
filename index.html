@@ -21,7 +21,7 @@
     <header id="header">
         <nav id="header-nav">
             <div id="logo">
-                <h2><a href="index.html"><img id="logo-design" src="assets/designs/leonhsulogo.png" alt="Leon Hsu Logo"></a></h2>
+                <h2><a href="#home"><img id="logo-design" src="assets/designs/leonhsulogo.png" alt="Leon Hsu Logo"></a></h2>
             </div>
             <ul  class="nav-links">
                 <li><a href="#home" onclick="pageReload()">Home</a></li>
@@ -39,7 +39,7 @@
 
     <div id="banner">
       <div class="banner-container wrapper">
-       
+
       </div>
     </div>
 
@@ -49,7 +49,7 @@
                 <img src="assets/designs/leonhsu.png" alt="Leon Hsu">
             </div>  -->
             
-            <h2 class="section-heading">Aspiring Full Stack Web Developer in Sydney, Australia</h2>
+            <h1 class="section-heading">Aspiring Full Stack Web Developer in Sydney, Australia</h1>
             <p>
               I work with businesses, startups and freelance projects to develop and design websites and creative assets that pushes businesses up 
               with SEO and Marketing. Websites are customised and robust and responsive to client satisfaction. 
@@ -57,17 +57,23 @@
             <button id="resume">Resume</button>
         </section>
 
+        <section id="about-contact">
+            <article class="panel"><i class="fas fa-phone"></i><p>0433659968</p></article>
+            <article class="panel"><i class="fas fa-envelope-square"></i><p>leonhsu95@gmail.com</p></article>
+            <article class="panel"><i class="fab fa-github"></i><p>leonhsu95</p></article>
+        </section>
+
         <section id="skills" class="responsive">
             <h2 class="section-heading">Skills <i class="fas fa-code"></i></h2>
             <div id="skills-icon">
-              <div class="skills-container"><i class="fab fa-html5"></i><p>HTML</p></div>
-              <div class="skills-container"><i class="fab fa-css3-alt"></i><p>CSS</p></div>
-              <div class="skills-container"><i class="fab fa-js"></i><p>JavaScript</p></div>
-              <div class="skills-container"><i class="fab fa-php"></i><p>PHP</p></div>
-              <div class="skills-container"><i class="fab fa-bootstrap"></i><p>Bootstrap</p></div>
-              <div class="skills-container"><i class="fab fa-wordpress"></i><p>WordPress</p></div>
-              <div class="skills-container"><i class="flaticon-adobe-illustrator"></i><p>Illustrator</p></div>
-              <div class="skills-container"><i class="flaticon-adobe-photoshop-logo"></i><p>Photoshop</p></div>
+              <div class="panel"><i class="fab fa-html5"></i><p>HTML</p></div>
+              <div class="panel"><i class="fab fa-css3-alt"></i><p>CSS</p></div>
+              <div class="panel"><i class="fab fa-js"></i><p>JavaScript</p></div>
+              <div class="panel"><i class="fab fa-php"></i><p>PHP</p></div>
+              <div class="panel"><i class="fab fa-bootstrap"></i><p>Bootstrap</p></div>
+              <div class="panel"><i class="fab fa-wordpress"></i><p>WordPress</p></div>
+              <div class="panel"><i class="flaticon-adobe-illustrator"></i><p>Illustrator</p></div>
+              <div class="panel"><i class="flaticon-adobe-photoshop-logo"></i><p>Photoshop</p></div>
             </div>
         </section>
         <section id="portfolio" class="link-section responsive">
@@ -75,6 +81,7 @@
             <p class="subtitle">Press Thumbnail to View Projects. <br> For thumbnails with a Github Icon, <br> press Project Name for Repo</p>
             <div id="works-square">
               
+              <div class="square-container">
               <h3><a href="https://github.com/SamuelHeal/ReaCharity">Reacharity</a></h3>
               <div class="works-container">
                   <a href="https://samuelheal.github.io/ReaCharity/"><img class="square" src="assets/designs/reacharity-screenshot.png" alt="Reacharity">
@@ -83,7 +90,8 @@
                   </div>
                   </a>
               </div>
-
+            </div>
+            <div class="square-container">
               <h3><a href="https://github.com/leonhsu95/weather-dashboard">Weather Dashboard</a></h3>
               <div class="works-container">
                   <a href="https://leonhsu95.github.io/weather-dashboard/"><img class="square" src="assets/designs/weather-dashboard-screenshot.png" alt="Weather Dashboard">
@@ -92,7 +100,8 @@
                   </div>
                   </a>
               </div>
-                
+            </div>
+            <div class="square-container">
               <h3>Learning Delights Bookclub</h3>
                 <div class="works-container">
                     <a href="https://learningdelights.com.au/"><img class="square" src="assets/designs/learningdelights.png" alt="Learning Delights Book Club">
@@ -101,38 +110,43 @@
                     </div>
                     </a>
                 </div>
-                  
+              </div> 
+            <div class="square-container">
               <h3>Sydney Property Valuations</h3>    
               <div class="works-container">
-                    <a href="https://sydneypropertyvaluations.com.au/"><img class="square" src="assets/designs/sydneysuburbanpropertyvaluations.png" alt="Sydney Suburban Property Valuations">
-                    <div class="overlay">
-                      <div class="works-text"><p><span class="works-tag1">Business Website Redesign</span><br><span class="works-tag2">Sydney Suburban Property Valuations</span></p></div>
-                    </div>
-                    </a>
+                  <a href="https://sydneypropertyvaluations.com.au/"><img class="square" src="assets/designs/sydneysuburbanpropertyvaluations.png" alt="Sydney Suburban Property Valuations">
+                  <div class="overlay">
+                    <div class="works-text"><p><span class="works-tag1">Business Website Redesign</span><br><span class="works-tag2">Sydney Suburban Property Valuations</span></p></div>
                   </div>
-            
-                  <h3>Sydney Contacts</h3> 
-                  <div class="works-container">
-                    <a href="https://sydneycontacts.com.au/"><img class="square" src="assets/designs/sydneycontacts.png" alt="Sydney Contacts">
-                    <div class="overlay">
-                    <div class="works-text"><p><span class="works-tag1">WooCommerce Dropship</span><br><span class="works-tag2">Sydney Contacts</span></p></div>
-                    </div>
-                    </a>
-                  </div>
-          
+                  </a>
+              </div>
+            </div>
 
-            <h3>Idol Eyes Australia</h3>       
-                  <div class="works-container">
-                    <a href="https://idoleyes.com.au/"><img class="square" src="assets/designs/idoleyes.png" alt="Idoleyes Australia">
-                    <div class="overlay">
-                      <div class="works-text"><p><span class="works-tag1">WooCommerce Dropship</span><br><span class="works-tag2">Idol Eyes Australia</span></p></div>
-                    </div>
-                    </a>
-                  </div>
-            
+            <div class="square-container">
+              <h3>Sydney Contacts</h3> 
+              <div class="works-container">
+                <a href="https://sydneycontacts.com.au/"><img class="square" src="assets/designs/sydneycontacts.png" alt="Sydney Contacts">
+                <div class="overlay">
+                <div class="works-text"><p><span class="works-tag1">WooCommerce Dropship</span><br><span class="works-tag2">Sydney Contacts</span></p></div>
+                </div>
+                </a>
+              </div>
+            </div>
+
+            <div class="square-container">
+              <h3>Idol Eyes Australia</h3>       
+              <div class="works-container">
+                <a href="https://idoleyes.com.au/"><img class="square" src="assets/designs/idoleyes.png" alt="Idoleyes Australia">
+                <div class="overlay">
+                  <div class="works-text"><p><span class="works-tag1">WooCommerce Dropship</span><br><span class="works-tag2">Idol Eyes Australia</span></p></div>
+                </div>
+                </a>
+              </div>
+            </div>
+
         </section>
-        <section id="contact" class="link-section flex-container">
-                <h2 class="section-heading">Contact Me</h2>
+        <section id="contact" class="link-section responsive">
+                <h2 id="contact-heading" class="section-heading">Contact Me</h2>
                 <form id="contact-form" action="#" method="post" novalidate="" >
                     <fieldset>
                         <p class="formfields">

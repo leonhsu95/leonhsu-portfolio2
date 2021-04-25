@@ -362,19 +362,14 @@ header {
 #contact-form
 {
 	max-width: 1200px;
-    margin: auto;
     padding: 50px;
 	border: none;
 	background-color: var(--casmandarin);
     border-radius: 20px;
+    position: relative;
+    top: -20px;
 }
 
-#contact-heading
-{
-	font-family: "Open Sans", sans-serif;
-	margin: 20px auto;
-	text-align: center;
-}
 
 #contact-form fieldset
 {
@@ -531,7 +526,7 @@ footer i{
 
 /*------------------------------MOBILE--------------------------------*/
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
     body {
         overflow-x: hidden;
         width: 100%;
@@ -573,11 +568,11 @@ footer i{
         opacity: 0;
         display: inline-block;
         position: relative;
-        width: 180px;
+        width: 100%;
         top: 70px;
         margin: 20px 10px;
-        text-align: right;
-        font-family: 'Lato';
+        text-align: center;
+        font-family: 'Lato', Arial, Helvetica, sans-serif;
     }
 
     .nav-links a{
@@ -585,7 +580,6 @@ footer i{
         font-size: 1.8em;
         top: 2.5em;
         padding: 20px 0;
-        left: 3em;
     }
     
     .burger {
@@ -638,27 +632,8 @@ footer i{
         padding-bottom: 20px;
     }
     
-    .banner-left{
-        width: 100%;  
-    }
-    
-    .banner-content {
-        margin: auto;
-    }
-    
 
     /*-MAIN-*/
-
-    .section-left{
-        display: none;
-        width: 100%;
-    }
-    
-    .section-right{
-        width: 100%;
-        padding: 10px 10px 10px 20px
-    }
-
 
 
     /*-INTRO-*/
@@ -671,7 +646,7 @@ footer i{
     flex-wrap: wrap;
     }
 
-    #intro h2{
+    #intro h1{
         font-family: "Bebas Neue", sans-serif; 
         text-transform: uppercase;
         color: var(--ldblue);
@@ -703,6 +678,35 @@ footer i{
       font-size: 1em;
       margin-top: 30px;
     }
+
+    /*- ABOUT CONTACT -*/
+
+    #about-contact{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    #about-contact article{
+        width: 100%;
+        color: #4f6d7a;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        font-size: 1.3em;
+
+    }
+
+    #about-contact article i{
+        font-size: 1.5em;
+        display: inline-block;
+    }
+
+    #about-contact article p{
+      position: relative;
+      display: block;
+      margin-top: 20px;
+    }
     
     /*- SKILLS -*/
     #skills{
@@ -724,7 +728,7 @@ footer i{
         text-align: center;
     }
 
-    .skills-container {
+    .panel{
         display: block;
         border: 1px #fff solid;
         padding: 20px;
@@ -748,7 +752,6 @@ footer i{
 
 
     /*-PORTFOLIO-*/   
-    
     .section-heading i{
         font-size: 0.5em;
     }
@@ -777,7 +780,6 @@ footer i{
         position: relative;
         letter-spacing: 1.5px;
         text-align: center;
-        display: inline-block;
         top: 20px;
         font-size: 1.5em;
     }
@@ -790,6 +792,10 @@ footer i{
         flex: 2;
         justify-content: space-evenly;
         padding: 10px 10px 30px 10px;
+    }
+
+    .square-container{
+        width: 100%;
     }
 
     .square
@@ -861,38 +867,41 @@ footer i{
      
      /*-CONTACT FORM-*/
      #contact{
-         padding: 10px;
-         background-color: var(--casmandarin);
+        padding: 10px;
+        background-color: #3a6ea5;
      }
      
      #contact h2{
-         padding-left: 10px;
+        padding-left: 10px;
      }
      
      #contact-form
      {
-         max-width: 1200px;
-         margin: auto;
-         padding: 10px;
-         border: none;
-         background-color: var(--casmandarin);
-         border-radius: 10px;
+        max-width: 1200px;
+        margin: auto;
+        padding: 10px;
+        border: none;
+        background-color: #3a6ea5;
+        border-radius: 10px;
+        font-family: "Bebas Neue", sans-serif;
+        letter-spacing: 1px;
+        color: white;
      }
      
-     #contact-heading
-     {
-         font-family: "Open Sans", sans-serif;
-         margin: 20px auto;
-         text-align: center;
-     }
-     
-     #contact-form fieldset
-     {
-         border: none;
-         display: flex;
-         flex-wrap: wrap;
-         justify-content: space-evenly;
-         
+    #contact-heading
+    {
+        font-family: "Bebas Neue", sans-serif;
+        color: white;
+        letter-spacing: 2px;
+    }
+
+    #contact-form fieldset
+    {
+        border: none;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        
      }
      
      #contact-form h2	
@@ -946,19 +955,20 @@ footer i{
      
      #submit
      {
-         padding: 5px;
-         border-radius: 10px;
-         box-shadow: 0 0 0 0;
-         background-color: #f16400;
-         color: white;
-         font-size: 0.9em;
-         font-weight: bold;
-         width: 150px;
-         height: 40px;
-         display: block;
-         position: relative;
-         margin-bottom: 30px;
-         border: none;
+        padding: 5px;
+        border-radius: 10px;
+        box-shadow: 0 0 0 0;
+        background-color: #ee6c4d;
+        color: white;
+        font-size: 0.9em;
+        font-weight: bold;
+        width: 150px;
+        height: 40px;
+        display: block;
+        position: relative;
+        border: none;
+        font-size: 1em;
+        letter-spacing: normal;
      }
 
      .text-input
@@ -974,7 +984,7 @@ footer i{
         clear: both;
      }
      
-     .formcomment{
+    .formcomment{
         margin-top: 20px;
     }
 
@@ -1010,7 +1020,7 @@ footer i{
 
 /*------------------------------TABLET--------------------------------*/
 
-@media screen and (max-width: 1439px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
     
     #header-nav{
         display: flex;
@@ -1018,11 +1028,110 @@ footer i{
         justify-content: space-between;
     }
     
+    /*-NAVIGATION BAR-*/
+   
+    .nav-links {
+        display: block;
+        position: fixed;
+        right: 0px;
+        height: 100vh;
+        top: 0vh;
+        background-color: #ebebeb;
+        /* opacity: 0.9; */
+        width: 100%;
+        transform: translateX(100%);
+        transition: transform 0.5s ease-in;
+        z-index: 1;
+    }
+    
+    .nav-links li {
+        opacity: 0;
+        display: inline-block;
+        position: relative;
+        width: 100%;
+        top: 70px;
+        margin: 20px 10px;
+        text-align: center;
+        font-family: 'Lato', Arial, Helvetica, sans-serif;
+    }
+
+    .nav-links a{
+        position: initial;
+        font-size: 1.8em;
+        top: 2.5em;
+        padding: 20px 0;
+    }
+    
+    .burger {
+        display: block;
+        cursor: pointer;
+        z-index: 2;
+        position: fixed;
+        top: 25px;  
+        right: 50px;      
+    }
+
+    .nav-active {
+        transform: translateX(0%);
+    }
+
+    @keyframes navLinkFade {
+        from {
+            opacity: 0;
+            transform: translateX(50px);
+        }
+        to {
+            opacity: 1;
+            transform: translateX(0);
+        }
+    }
+
+    .toggle .line1 {
+        transform: rotate(-45deg) translate(-5px, 6px);
+    }
+
+    .toggle .line2 {
+        opacity: 0;
+    }
+
+    .toggle .line3 {
+        transform: rotate(45deg) translate(-5px, -6px);
+    }
 
     /*-BANNER-*/
 
     #banner-responsive{
         display: none;
+    }
+
+    /*- ABOUT CONTACT -*/
+
+    #about-contact{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    
+    #about-contact article{
+        width: 31%;
+        color: #4f6d7a;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        font-size: 1.3em;
+    
+    }
+    
+    #about-contact article i{
+        font-size: 1.5em;
+        display: inline-block;
+    }
+    
+    #about-contact article p{
+        position: relative;
+        display: block;
+        margin-top: 20px;
     }
 
     /*-MAIN-*/
@@ -1043,35 +1152,12 @@ footer i{
         padding-bottom: 30px;
     }
 
-    .section-left{
-        display: none;  
+    /*- PORTFOLIO -*/
+    .square-container{
+        width: 45%;
+        margin: 10px;
     }
 
-    .section-left img{
-        display: block;
-        height: auto;
-    }
-
-    .section-right{
-        width: 100%;
-    }
-
-    /*-CONTACT FORM-*/
-    #phone
-     {
-         display: inline-block;
-         position: relative;
-         left: 10px;
-     
-     }
-     
-     #email
-     {
-         display: inline-block;
-         position: relative;
-         left: 10px;
-     
-     }
 }
 
 
@@ -1079,7 +1165,7 @@ footer i{
 
 /*------------------------------DESKTOP--------------------------------*/
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1024px) {
     
     header{
         border: 1px white solid;
@@ -1126,7 +1212,49 @@ footer i{
         transition: var(--fade);
     }
 
-    /*- PORTFOLIO -*/
+/*- SKILLS -*/
+#skills{
+    background-color: var(--lcream);
+}
+
+#skills h2{
+    font-family: "Bebas Neue", sans-serif; 
+    text-transform: uppercase;
+    color: var(--ldblue);
+    letter-spacing: 2px;
+    font-size: 3em;
+}
+
+#skills-icon{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.panel{
+    display: block;
+    border: 1px #fff solid;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 3px 4px 4px #e2d7d7;
+    background: white;
+    margin: 10px;
+    width: 20%;
+}
+
+#skills-icon i{
+    font-size: 3em;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+#skills-icon p{
+    font-family: Arial, sans-serif;
+    font-size: 1.1em;
+}
+
+/*- PORTFOLIO -*/
     /*-PORTFOLIO-*/
 
 /* #portfolio h2{
@@ -1173,7 +1301,6 @@ footer i{
     transition: .3s ease-in;
     background-color: black;
     border-radius: 20px;
-  
   }
   
   .works-container a{
@@ -1215,9 +1342,6 @@ footer i{
     margin: 20px 0;
   }
   
-  #works-square h3{
-      display: none;
-  }
 
 
 
