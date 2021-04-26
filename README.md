@@ -5,9 +5,9 @@ You can view my Portfolio here: [Leon Hsu Portfolio](https://leonhsu95.github.io
 
 ## Table of Contents
 
-- [Installation](#installation)
 - [Description](#description)
 - [Usage](#usage)
+- [Installation](#installation)
 - [Credits](#credits)
 - [License](#license)
 
