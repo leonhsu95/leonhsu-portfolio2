@@ -1327,6 +1327,11 @@ footer i{
     }
 
     /*- PORTFOLIO -*/
+
+    #portfolio{
+        padding-top: 30px;
+    }
+
     .square-container{
         width: 45%;
         margin: 10px;
