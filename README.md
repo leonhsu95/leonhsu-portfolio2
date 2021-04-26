@@ -44,9 +44,7 @@ My portfolio should look like this, please do not recreate or reuse under any ci
 
 ## Credits
 
-All resources were provided by "University of Sydney Bootcamp" [GitLab Repo](https://sydney.bootcampcontent.com/university-of-sydney/usyd-syd-fsf-pt-02-2021-u-c)
-Weather API sourced freely and without copyright restriction from [OpenWeather](https://openweathermap.org/appid)
-Project developed by Leon Hsu. 
+Project developed by Leon Hsu. Copyright 2021 Leon Hsu leonhsu95. All Rights Reserved.
 
 ## License
 
@@ -72,13 +70,13 @@ SOFTWARE.
 
 ## Features
 
-- The user can search any Australia Chartiies by Charity Causes and Australian States
-- User saved cities are stored in local storage.
-- User can click on any button to search for previous cities and its data.
+- The website is mobile first and responsive.
+- Animation triggers on element on mouse scroll.
+- Potential Employers can view all of my projects, skill proficiencies and contact details.
 
 ## Future Improvements
-- The site can be made responsive for better mobile UI.
-- Adding a user modal for quiz responses can interactively get user's choices and preferences to search charities.
+- The site can be more dynamic in animation and can take inspiration from awwwards.com websites.
+- Contact Form can have js regex for validation and website can be hosted and turned into php to make Contact Form work.
 
 ## Tests
 
