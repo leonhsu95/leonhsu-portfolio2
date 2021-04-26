@@ -154,7 +154,7 @@ header {
     padding-bottom: 30px;
 }
 
-#resume{
+.call-to-action{
     display: inline-block;
     z-index: 3;
 }
@@ -643,7 +643,7 @@ footer i{
 
     }
 
-    #resume{
+    .call-to-action{
       padding: 10px 20px;
 	  border-radius: 10px;
 	  box-shadow: 0 0 0 0;
@@ -660,7 +660,7 @@ footer i{
       width: 100%;
     }
 
-    #resume:link{
+    .call-to-action:link{
         z-index: 1;
         padding: 10px 20px;
         border-radius: 10px;
@@ -678,7 +678,7 @@ footer i{
         text-decoration: none;
     }
 
-    #resume:visited{
+    .call-to-action:visited{
         padding: 10px 20px;
         border-radius: 10px;
         box-shadow: 0 0 0 0;
@@ -695,7 +695,7 @@ footer i{
         text-decoration: none;
     }
 
-    #resume:hover{
+    .call-to-action:hover{
         padding: 10px 20px;
         border-radius: 10px;
         box-shadow: 0 0 0 0;
@@ -1224,7 +1224,7 @@ footer i{
     }
 
     
-    #resume:link{
+    .call-to-action:link{
         z-index: 1;
         padding: 10px 20px;
         border-radius: 10px;
@@ -1242,7 +1242,7 @@ footer i{
         text-decoration: none;
     }
 
-    #resume:visited{
+    .call-to-action:visited{
         padding: 10px 20px;
         border-radius: 10px;
         box-shadow: 0 0 0 0;
@@ -1259,7 +1259,7 @@ footer i{
         text-decoration: none;
     }
 
-    #resume:hover{
+    .call-to-action:hover{
         padding: 10px 20px;
         border-radius: 10px;
         box-shadow: 0 0 0 0;
@@ -1417,6 +1417,7 @@ footer i{
         width: 35%;  
         z-index: 1;
         padding-left: 50px;
+        padding-top: 30px;
     }
     
     .section-right{
@@ -1441,7 +1442,7 @@ footer i{
     }
 
     
-    #resume:link{
+    .call-to-action:link{
         z-index: 1;
         padding: 10px 20px;
         border-radius: 10px;
@@ -1459,7 +1460,7 @@ footer i{
         text-decoration: none;
     }
 
-    #resume:visited{
+    .call-to-action:visited{
         padding: 10px 20px;
         border-radius: 10px;
         box-shadow: 0 0 0 0;
@@ -1476,7 +1477,7 @@ footer i{
         text-decoration: none;
     }
 
-    #resume:hover{
+    .call-to-action:hover{
         padding: 10px 20px;
         border-radius: 10px;
         box-shadow: 0 0 0 0;
