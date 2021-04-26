@@ -1,7 +1,6 @@
 # Leon Hsu Portfolio
 
-You can view my Portfolio here: [Leon Hsu Portfolio](https://leonhsu95.github.io/leonhsu95/)
-
+You can view my Portfolio here: [Leon Hsu Portfolio](https://leonhsu95.github.io/leonhsu95-Portfolio/)
 
 ## Table of Contents
 
@@ -33,7 +32,7 @@ To install the files into your local repo, using Git Bash Terminal:
 2) Clone with SSH by
 
 ```GitBash Commands
-git clone git@github.com:leonhsu95/leonhsu95.git/"
+git clone git@github.com:leonhsu95/leonhsu95-Portfolio.git"
  ```
 
 ## Usage
