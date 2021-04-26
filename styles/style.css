@@ -715,11 +715,22 @@ footer i{
 
     /*- ABOUT CONTACT -*/
 
+    .panel{
+        display: block;
+        border: 1px #fff solid;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 3px 4px 4px #e2d7d7;
+        background: white;
+        margin: 10px;
+        width: 44%;
+    }
+
     #about-contact{
         display: flex;
         flex-wrap: wrap;
         width: 100%;
-        margin-bottom: 50px;
+        margin: 50px 0;
     }
 
     .contact-box{
@@ -762,16 +773,7 @@ footer i{
         text-align: center;
     }
 
-    .panel{
-        display: block;
-        border: 1px #fff solid;
-        padding: 20px;
-        border-radius: 5px;
-        box-shadow: 3px 4px 4px #e2d7d7;
-        background: white;
-        margin: 10px;
-        width: 44%;
-    }
+    
 
     #skills-icon i{
         font-size: 3em;
