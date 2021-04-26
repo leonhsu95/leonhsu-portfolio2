@@ -544,7 +544,7 @@ footer i{
         width: 100%;
         transform: translateX(100%);
         transition: transform 0.5s ease-in;
-        z-index: 1;
+        z-index: 2;
     }
     
     .nav-links li {
@@ -556,6 +556,7 @@ footer i{
         margin: 20px 10px;
         text-align: center;
         font-family: 'Lato', Arial, Helvetica, sans-serif;
+        right: 10px;
     }
 
     .nav-links a{
@@ -661,6 +662,7 @@ footer i{
     }
 
     #resume:link{
+        z-index: 1;
         padding: 10px 20px;
         border-radius: 10px;
         box-shadow: 0 0 0 0;
@@ -1078,7 +1080,7 @@ footer i{
         width: 100%;
         transform: translateX(100%);
         transition: transform 0.5s ease-in;
-        z-index: 1;
+        z-index: 3;
     }
     
     .nav-links li {
@@ -1087,7 +1089,8 @@ footer i{
         position: relative;
         width: 100%;
         top: 70px;
-        margin: 20px 10px;
+        left: 10px;
+        margin: 20px auto;
         text-align: center;
         font-family: 'Lato', Arial, Helvetica, sans-serif;
     }
@@ -1097,12 +1100,14 @@ footer i{
         font-size: 1.8em;
         top: 2.5em;
         padding: 20px 0;
+        margin: 0 auto;
+        display: inline-block;
     }
     
     .burger {
         display: block;
         cursor: pointer;
-        z-index: 2;
+        z-index: 4;
         position: fixed;
         top: 25px;  
         right: 50px;      
@@ -1221,6 +1226,7 @@ footer i{
 
     
     #resume:link{
+        z-index: 1;
         padding: 10px 20px;
         border-radius: 10px;
         box-shadow: 0 0 0 0;
@@ -1437,6 +1443,7 @@ footer i{
 
     
     #resume:link{
+        z-index: 1;
         padding: 10px 20px;
         border-radius: 10px;
         box-shadow: 0 0 0 0;
