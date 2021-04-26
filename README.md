@@ -1,6 +1,6 @@
 # Leon Hsu Portfolio
 
-You can view my Portfolio here: [Leon Hsu PortFolio](https://leonhsu95.github.io/leonhsu95/)
+You can view my Portfolio here: [Leon Hsu Portfolio](https://leonhsu95.github.io/leonhsu95/)
 
 
 ## Table of Contents
