@@ -1,6 +1,6 @@
 # Leon Hsu Portfolio
 
-You can view my Portfolio here: [Weather Dashboard](git@github.com:leonhsu95/leonhsu95.git/)
+You can view my Portfolio here: [Leon Hsu PortFolio](https://leonhsu95.github.io/leonhsu95/)
 
 
 ## Table of Contents
