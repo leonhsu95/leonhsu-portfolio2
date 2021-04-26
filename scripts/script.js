@@ -29,6 +29,7 @@ function pageReload(){
     nav.classList.toggle("nav-active");
 }
 
+
 navSlide();
 
 
