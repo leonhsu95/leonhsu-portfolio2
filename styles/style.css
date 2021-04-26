@@ -623,7 +623,7 @@ footer i{
     /*-INTRO-*/
 
     .responsive{
-        padding: 50px 20px;
+        padding: 20px 20px;
     }
     
 
@@ -731,7 +731,7 @@ footer i{
         display: flex;
         flex-wrap: wrap;
         width: 100%;
-        margin: 50px 0;
+        margin-bottom: 50px;
     }
 
     .contact-box{
@@ -1528,7 +1528,7 @@ footer i{
         flex-wrap: wrap;
         justify-content: space-evenly;
         width: 100%;
-        margin: 50px auto;
+        margin: 0 auto 30px auto;
     }
     
     .contact-box{
