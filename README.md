@@ -21,7 +21,7 @@ as of current. In the website, it contains my bio, contact information and proje
 Technologies used in this portfolio include:
  * HTML
  * CSS
- * JS and cdns
+ * JS and cdns for animation
  * Photoshop
  * Illustrator
 
@@ -38,11 +38,9 @@ git clone git@github.com:leonhsu95/leonhsu95.git/"
 
 ## Usage
 
-This landing page is a mockup and can be used and tested freely. If testing, please save a copy of the original files and edit on the copied file.
-The website mockup should look like this:
+My portfolio should look like this, please do not recreate or reuse under any circumstances without permission:
 
- ![Weather Dashboard Default](assets/screenshots/screenshot.png)
- ![Weather Dashboard Demonstration](assets/screenshots/screenshot2.png)
+ ![Portfolio Screenshot](assets/screenshots/screenshot.png)
 
 ## Credits
 
