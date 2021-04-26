@@ -532,7 +532,6 @@ footer i{
     }
 
     /*-NAVIGATION BAR-*/
-   
     .nav-links {
         display: block;
         position: fixed;
@@ -556,7 +555,7 @@ footer i{
         margin: 20px 10px;
         text-align: center;
         font-family: 'Lato', Arial, Helvetica, sans-serif;
-        right: 10px;
+        right: 15px;
     }
 
     .nav-links a{
