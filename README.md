@@ -72,13 +72,13 @@ SOFTWARE.
 
 ## Features
 
-- The user can type any city name and the application will fetch the weather forecast of that city for the next 5 days.
+- The user can search any Australia Chartiies by Charity Causes and Australian States
 - User saved cities are stored in local storage.
 - User can click on any button to search for previous cities and its data.
 
 ## Future Improvements
 - The site can be made responsive for better mobile UI.
-- Alert signs can be added when user inputs invalid city.
+- Adding a user modal for quiz responses can interactively get user's choices and preferences to search charities.
 
 ## Tests
 
