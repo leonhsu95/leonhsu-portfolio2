@@ -46,6 +46,7 @@ My portfolio should look like this, please do not recreate or reuse under any ci
 Project developed by Leon Hsu. Copyright 2021 Leon Hsu leonhsu95. All Rights Reserved.
 
 ## License
+MIT License
 
 Copyright (c) [2021] [leonhsu95]
 
