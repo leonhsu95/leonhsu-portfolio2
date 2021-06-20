@@ -1,12 +1,11 @@
 # Leon Hsu Portfolio
 
-You can view my Portfolio here: [Leon Hsu Portfolio](https://leonhsu95.github.io/leonhsu95-portfolio-archive2/)
+You can view my Portfolio here: [Leon Hsu Portfolio](https://leonhsu95.github.io/leonhsu95-portfolio/)
 
 ## Table of Contents
 
 - [Description](#description)
 - [Usage](#usage)
-- [Installation](#installation)
 - [Credits](#credits)
 - [License](#license)
 
@@ -23,17 +22,6 @@ Technologies used in this portfolio include:
  * JS and cdns for animation
  * Photoshop
  * Illustrator
-
-## Installation
-
-To install the files into your local repo, using Git Bash Terminal:
-
-1) Create a folder locally to nominate for cloning from online repo
-2) Clone with SSH by
-
-```GitBash Commands
-git clone git@github.com:leonhsu95/leonhsu95-portfolio-archive2.git"
- ```
 
 ## Usage
 
